@@ -1,0 +1,154 @@
+.loginPage {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(weatherLogin.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#login-container {
+    background-color: #00394f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:#3879a5;
+}
+
+.brand-title{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3879a5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#credits {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #0011ff5c;
+    font-size: 16px;
+}
+.logoName{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+.mainPage{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #101224;
+    color: white;
+    text-align: center;
+}
+.container-fluid{
+    padding: 2% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.nav-item{
+    padding: 0 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+* {
+    box-sizing: border-box;
+}
+#map{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+svg path {
+    cursor: pointer;
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: .25;
+}
+
+#country {
+    position: absolute;
+    background-color: #dedee61a;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 4px 5px;
+    font-size: 1.5rem;
+    color: #8ee425;
+
+}
+#weather{
+    background-color:#4b4b8b86;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #8ee425;  
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;     
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    margin: 32px 0;
+    padding: 0 16px;
+}
+
+.title p{
+    max-width: 500px;
+    margin: 16px auto;
+    line-height: 27px;
+}
+
+.bottom-container{
+    background-color: #00394f;
+    padding: 2%;
+    margin-top: 4%;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.contactpage{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #101224;
+    color: white;
+    text-align: center;
+}

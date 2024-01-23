@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+<body class="loginPage">
+    <div class="logoName">weatherWeb</div>
+    <div id="login-container">
+        <h2>Login</h2>
+        <!--this form get input username and password from user for authorized acces-->
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form>
+    </div>
+    <div id="credits">©weatherWeb</div>
+    <!--javaScript code for checking whether the user's received name and password match the data-->
+    <script>
+        function validateLogin() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+
+            if (username === 'atamer' && password === 'topuz' || username === 'eray' && password === 'keskiner' || username === 'betül' && password === 'selvi') {
+                alert('Welcome to weatherWeb!');
+                window.location.href = 'mainpage.html';
+            } else {
+                alert('user password or name is incorrect, try again!');
+            }
+        }
+    </script>
+</body>
+</html>
